@@ -1,6 +1,6 @@
 # Rose curves generator
 
-A JavaScript implementation of a rose curves generator. A rose or [rhodonea curve](https://en.wikipedia.org/wiki/Rose_(mathematics)) is a sinusoid plotted in polar coordinates. 
+A JavaScript implementation of a rose curves generator. A rose or rhodonea curve is a sinusoid plotted in polar coordinates. View demo here: [codepen.io](https://codepen.io/mnbond/full/RNwXavw).
 
 The idea of color polygon plots based on this [post](https://art-verse.com/2020/04/04/algorithmic-art-rose-rhodonea-curves/).
 
