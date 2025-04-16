@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    min-height: 100%;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.rose svg {
+    display: block;
+}
+
+.palette-0 .color-0 { fill: #E5F5AE; }
+.palette-0 .color-1 { fill: #B5E48C; }
+.palette-0 .color-2 { fill: #76C893; }
+.palette-0 .color-3 { fill: #52B69A; }
+.palette-0 .color-4 { fill: #34A0A4; }
+.palette-0 .color-5 { fill: #168AAD; }
+.palette-0 .color-6 { fill: #1A759F; }
+.palette-0 .color-7 { fill: #184E77; }
+.palette-0 .color-8 { fill: #08134F; }
+
+.palette-1 .color-0 { fill: #FFEBB5; }
+.palette-1 .color-1 { fill: #FFD460; }
+.palette-1 .color-2 { fill: #FFBC0A; }
+.palette-1 .color-3 { fill: #EB7E48; }
+.palette-1 .color-4 { fill: #D73F86; }
+.palette-1 .color-5 { fill: #A2208A; }
+.palette-1 .color-6 { fill: #6D008D; }
+.palette-1 .color-7 { fill: #460059; }
+.palette-1 .color-8 { fill: #1E002B; }
+
+@media(min-width:390px){
+    #grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width:600px){
+    #grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media(min-width:768px){
+    #grid-container {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media(min-width:1024px){
+    #grid-container {
+        grid-template-columns: repeat(9, 1fr);
+    }
+}
